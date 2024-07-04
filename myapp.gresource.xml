@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+    <gresource prefix="res">
+        <file>EllipseIcon.png</file>
+        <file>FloodFillIcon.png</file>
+        <file>PencilIcon.png</file>
+        <file>RectangleIcon.png</file>
+        <file>SelectBoxIcon.png</file>
+        <file>PickColor.png</file>
+        <file>PauseToolIcon.png</file>
+        <file>PlayToolIcon.png</file>
+        <file>FlipHorizontalyIcon.png</file>
+        <file>FlipVerticalyIcon.png</file>
+        <file>Swing90LeftIcon.png</file>
+        <file>Swing90RightIcon.png</file>
+        <file>document-new.png</file>
+        <file>document-open.png</file>
+        <file>document-save.png</file>
+        <file>document-save-as.png</file>
+        <file>application-exit.png</file>
+        <file>edit-copy.png</file>
+        <file>edit-cut.png</file>
+        <file>edit-paste.png</file>
+        <file>edit-undo.png</file>
+        <file>edit-redo.png</file>
+        <file>help-about.png</file>
+        <file preprocess="xml-stripblanks">gtk_sprite_ed.glade</file>
+    </gresource>
+</gresources>

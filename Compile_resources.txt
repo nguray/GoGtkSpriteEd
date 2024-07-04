@@ -1,0 +1,8 @@
+
+Création du fichier des resource :
+   	Rester dans le répertoire du projet
+    lancer  : glib-compile-resources --sourcedir res myapp.gresource.xml --target myapp.gresource
+    le fichier généré "myapp.gresource" est dans le répertoire courant 
+
+remarques :
+    En cas de modification de gtk_sprite_ed.glade, il faut lancer du répertoire projet : glade res/gtk_sprite_ed.glade
