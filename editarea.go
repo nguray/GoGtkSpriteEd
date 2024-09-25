@@ -280,6 +280,8 @@ func (ea *editArea) SetPixbuf(imgBuf *gdk.Pixbuf) {
 	ea.nbPixelsH = imgBuf.GetHeight()
 	ea.nbPixelsW = imgBuf.GetWidth()
 	ea.imgBuf = imgBuf
+	ea.imgBufBak, _ = gdk.PixbufNew(gdk.COLORSPACE_RGB, true, 8, ea.nbPixelsW, ea.nbPixelsH)
+	ea.imgBufCopy, _ = gdk.PixbufNew(gdk.COLORSPACE_RGB, true, 8, ea.nbPixelsW, ea.nbPixelsH)
 	ea.selectRect.Init()
 	ea.QueueDraw()
 }
